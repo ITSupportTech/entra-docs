@@ -23,7 +23,7 @@ This article details the properties and syntax to create rules for dynamic membe
 > Security groups can be used for either devices or users, but Microsoft 365 groups can include only users. 
 
 When the attributes of a user or a device change, the system evaluates all rules for dynamic membership groups in a directory to see if the change would trigger any group adds or removes. If a user or device satisfies a rule on a group, they're added as a member of that group. If they no longer satisfy the rule, they're removed. You can't manually add or remove a member of a dynamic membership group.
-- You can create a dynamic membership groups for users or devices, but you can't create a rule that contains both users and devices.
+- You can create dynamic membership groups for users or devices, but you can't create a group that contains both users and devices.
 - You can't create a device membership group based on the user attributes of the device owner. Device membership rules can reference only device attributes.
 
 > [!NOTE]

@@ -63,7 +63,7 @@ Parentheses are optional for a single expression. The total length of the body o
 
 ## Constructing the body of a membership rule
 
-A membership rule that automatically populates a group with users or devices is a binary expression that results in a true or false outcome. The three parts of a simple rule are:
+A membership rule that automatically populates a group with users or devices is a binary expression that results in a true or false outcome. The three parts of a single expression are:
 
 - Property
 - Operator
